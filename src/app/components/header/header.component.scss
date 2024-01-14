@@ -4,8 +4,8 @@ header {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-width: 100vw;
   gap: 32px;
+  overflow: hidden;
 }
 
 header .logo-header {
@@ -41,6 +41,7 @@ header .text-header h1 {
 
 header .text-header p {
   color: var(--light-gray);
+  text-align: justify;
 }
 
 header .text-header .heading {
